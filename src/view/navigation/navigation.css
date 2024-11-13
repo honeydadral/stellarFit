@@ -1,0 +1,65 @@
+/* Basic styles for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E4E1D7;
+    padding: 8px 30px;
+    color: #000;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #f0a500;
+  }
+  /*top bar*/
+  .top-bar {
+    display: flex;
+    justify-content: space-between; /* Aligns the children (social-media and auth-links) to opposite ends */
+    align-items: center; /* Vertically centers the content */
+    padding: 10px 40px;
+    background-color: #000; /* Adjust the background color as needed */
+  }
+  
+  .social-media a {
+    margin-right: 15px; /* Spacing between social media links */
+    text-decoration: none;
+    color: #fff; /* Adjust color as needed */
+  }
+  
+  .auth-links a {
+    text-decoration: none;
+    color: #fff; /* Adjust color as needed */
+  }
+  
+  .auth-links a:hover {
+    text-decoration: underline;
+  }
+  span.line-icon{
+    color: #fff;
+    padding: 0px 6px;
+  }
+  .logo-img{
+    width: 185px;
+  }
